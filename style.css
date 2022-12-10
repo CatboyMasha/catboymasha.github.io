@@ -58,8 +58,7 @@ body {
 }
 .links .box .text {
     width: 100%;
-    padding-right: 64px;
-    margin-right: 2vw;
+    margin-right: calc(64px + 2vw);
     text-align: center;
 }
 .links a .button {
