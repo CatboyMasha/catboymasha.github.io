@@ -77,7 +77,7 @@ body {
 }
 .links p {
     margin-left: 20px;
-    font-size: max(22px, 1.5vw);
+    font-size: 20px;
 }
 .links img {
     height: 64px;
