@@ -23,7 +23,6 @@
         radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,
         transparent 46%, transparent 76%,transparent 76%, transparent 100%),
         linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
-    --theme-header: #232323;
     --theme-1: #d4afb9;
     --theme-2: #d1cfe2;
     --theme-3: #9cadce;
@@ -48,17 +47,10 @@ body {
 
 .links {
     margin-top: 30px;
-    text-align: center;
 }
 .links .box {
     display: flex;
     align-items: center;
-}
-.links .box .text {
-    position: relative;
-    left: -3.5vw;
-    width: 100vw;
-    text-align: center;
 }
 .links a .button {
     background-color: rgba(0, 0, 0, 0.25);
