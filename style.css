@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "MV Boli";
+    src: "mvboli.ttf";
+}
+:root {
+    --theme-bg: 
+        radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 4%,
+        transparent 4%, transparent 44%,transparent 44%, transparent 100%),
+        radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,
+        transparent 51%, transparent 52%,transparent 52%, transparent 100%),
+        radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 53%,
+        transparent 53%, transparent 64%,transparent 64%, transparent 100%),
+        radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 6%,
+        transparent 6%, transparent 98%,transparent 98%, transparent 100%),
+        radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 16%,
+        transparent 16%, transparent 23%,transparent 23%, transparent 100%),
+        radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 3%,
+        transparent 3%, transparent 26%,transparent 26%, transparent 100%),
+        radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,
+        transparent 51%, transparent 75%,transparent 75%, transparent 100%),
+        radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 35%,
+        transparent 35%, transparent 55%,transparent 55%, transparent 100%),
+        radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,
+        transparent 46%, transparent 76%,transparent 76%, transparent 100%),
+        linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
+    --theme-header: #232323;
+    --theme-1: #d4afb9;
+    --theme-2: #d1cfe2;
+    --theme-3: #9cadce;
+    --theme-4: #7ec4cf;
+}
+body {
+    font-family: "MV Boli";
+    height: 100vh; width: 100vw;
+    background: var(--theme-bg);
+    color: white;
+}
+
+
+.header > a > img {
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+}
+.links .box {
+    display: flex;
+    align-items: center;
+}
+.links .box .text {
+    position: relative;
+    left: -3.5vw;
+    width: 100vw;
+    text-align: center;
+}
+.links a .button {
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+    width: 80vw;
+    border-radius: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding: 2vh;
+}
+.links a .button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+.links p {
+    margin-left: 20px;
+    font-size: 25px;
+}
+.links img {
+    height: 64px;
+    width: 64px;
+}
